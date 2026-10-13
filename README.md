@@ -34,7 +34,15 @@ Nuxt, TypeScript, Flutter, Python, PostgreSQL, Redis, and Docker Compose.
 
 ## Screenshots
 
-The available app capture shows a named social account and engagement figures, so it is not included in this public showcase.
+<p align="center">
+  <img src="assets/dashboard-mobile.jpg" width="340" alt="GeniPhase mobile dashboard showing account activity, approvals, engagement, and analytics">
+</p>
+<p align="center"><sub>Mobile dashboard screenshot from the project.</sub></p>
+
+<p align="center">
+  <img src="assets/featured-project-banner.jpg" width="720" alt="GeniPhase featured-project banner with mobile dashboard">
+</p>
+<p align="center"><sub>Project banner from the design materials.</sub></p>
 
 ## Main site
 
