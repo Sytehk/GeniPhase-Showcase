@@ -1,17 +1,30 @@
 # GeniPhase
 
-**AI-enabled social operations**
+**A multi-tenant platform for AI-assisted social media work**
 
-GeniPhase is a multi-tenant platform for planning content, monitoring social interactions, managing safe replies, and supporting campaign workflows.
+GeniPhase is being built to help teams manage social personas, content, and account activity from a shared workspace. It combines content workflows with configurable review and automation controls.
 
-## Project scope
+## Product direction
 
-- Web and mobile product experiences
-- Content and account workflows
-- API, worker, and real-time service components
+- Create and manage distinct AI personas with their own voice, topics, and boundaries.
+- Plan, draft, and schedule content across connected social accounts.
+- Monitor engagement and organize responses to comments and messages.
+- Use brand context to help with support and lead conversations, with escalation for sensitive or uncertain cases.
+- Coordinate multiple brands, campaigns, and team members from one workspace.
+- Keep review and approval in the workflow, with automation controlled by workspace rules.
 
-**Technology:** TypeScript and Nuxt, Flutter, Python services, PostgreSQL, Redis.
+Social platforms are handled through provider integrations so that each platform's behavior can be managed separately from shared product workflows.
 
-[Explore the public case study](https://www.acenetics.dev/work)
+## Engineering scope
 
-This repository contains a public project summary only. It does not include private source, social account data, credentials, or internal operating details.
+The system is organized as a web product with API, worker, scheduler, and real-time components. The frontend and backend run as separate services, with PostgreSQL for persistent data and Redis for supporting background and coordination work.
+
+## Technology
+
+Nuxt and TypeScript, Flutter, Python services, PostgreSQL, Redis, and Docker Compose.
+
+## About this repository
+
+This public repository contains a product and engineering overview only. It does not publish application source, connected-account data, credentials, or internal operating details.
+
+[View the public case study](https://acenetics.dev/work)
