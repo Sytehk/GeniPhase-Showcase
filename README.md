@@ -36,8 +36,12 @@ Nuxt, TypeScript, Flutter, Python, PostgreSQL, Redis, and Docker Compose.
 
 The available app capture shows a named social account and engagement figures, so it is not included in this public showcase.
 
+## Main site
+
+[Visit GeniPhase](https://geniphase.live)
+
 ## This repository
 
 This is a public project overview only. It does not include private source code, connected social-account information, credentials, internal prompts, or operating configuration.
 
-[View the public case study](https://acenetics.dev/work)
+[View the AceNetics case study](https://acenetics.dev/work)
