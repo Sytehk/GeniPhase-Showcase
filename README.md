@@ -18,18 +18,26 @@ Social platforms are handled through provider-specific integrations. Each platfo
 
 ## Built for controlled automation
 
-GeniPhase treats AI as a governed part of the workflow. Brand memory, allowed topics, banned topics, confidence thresholds, and approval modes are used to guide what can be drafted or actioned. Teams can keep work fully manual or choose limited automation where it is suitable.
+GeniPhase treats AI as a governed part of the workflow. Brand memory, allowed topics, banned topics, confidence thresholds, and approval modes help guide what can be drafted or actioned. Teams can keep work fully manual or choose limited automation where suitable.
 
-The system is organized as a web product with API, worker, scheduler, and real-time service components. Long-running publishing and monitoring work can be handled outside the interactive user interface.
+An AI account-manager direction extends this idea beyond publishing. It can use a workspace's approved brand context to help identify sales or support conversations, prepare possible responses, and raise uncertain or risky cases for a person to handle.
 
-## Engineering
+## Multi-tenant engineering
 
-The frontend is built with Nuxt and TypeScript, with Flutter experiences for mobile workflows. Python services provide API and background processing, while PostgreSQL and Redis support data and asynchronous coordination. Docker Compose provides a local multi-service development environment.
+Workspace separation shapes the platform from the beginning. Personas and connected accounts belong to workspaces; platform-specific behavior is kept behind provider adapters; and reusable workflows can serve different brands without merging their settings or credentials.
+
+The system is organized as a web product with API, worker, scheduler, and real-time service components. Longer-running publishing and monitoring work can happen outside the interactive user interface. PostgreSQL stores application state, Redis supports asynchronous coordination, and Docker Compose brings the local services together.
 
 ## Technology
 
 Nuxt, TypeScript, Flutter, Python, PostgreSQL, Redis, and Docker Compose.
 
+## Screenshots
+
+The available app capture shows a named social account and engagement figures, so it is not included in this public showcase.
+
 ## This repository
 
 This is a public project overview only. It does not include private source code, connected social-account information, credentials, internal prompts, or operating configuration.
+
+[View the public case study](https://acenetics.dev/work)
